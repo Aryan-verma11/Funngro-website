@@ -20,13 +20,12 @@ This redesign showcases modern front-end development, UI/UX design, SEO optimiza
 ## 📁 Project Structure
 
 ```
-funngro/
+funngro-website/
 ├── index.html              # Home page
 ├── companies-teens.html    # Companies & Teens page
-├── css/
-│   └── style.css           # Complete design system & styles
-├── js/
-│   └── main.js              # Navbar, carousel, FAQ, counters, form validation
+|
+│─── style.css           # Complete design system & styles
+├── main.js              # Navbar, carousel, FAQ, counters, form validation
 ├── sitemap.xml              # SEO sitemap
 ├── robots.txt                # Crawler directives
 └── README.md                  # This file
@@ -68,7 +67,7 @@ python3 -m http.server 8000
 npx serve .
 ```
 
-Then visit `http://localhost:8000`.
+Then visit `https://aryan-verma11.github.io/Funngro-website/`.
 
 ## 🌐 Deployment Instructions
 
@@ -77,26 +76,8 @@ Then visit `http://localhost:8000`.
 2. Go to **Settings → Pages**.
 3. Under "Build and deployment," select **Deploy from a branch**.
 4. Choose `main` branch and `/ (root)` folder, then **Save**.
-5. Your site will be live at `https://<username>.github.io/<repo-name>/`.
+5. Your site will be live at `https://aryan-verma11.github.io/Funngro-website/`.
 
-### Netlify
-1. Drag and drop the project folder onto [app.netlify.com/drop](https://app.netlify.com/drop), **or**
-2. Connect your GitHub repo via **Add new site → Import an existing project**.
-3. Build command: leave blank (static site). Publish directory: `/` (root).
-4. Click **Deploy site**.
-
-### Vercel
-1. Install the CLI: `npm i -g vercel`
-2. Run `vercel` inside the project folder and follow the prompts.
-3. Framework preset: **Other** (static HTML). Output directory: `./`
-4. Run `vercel --prod` to deploy to production.
-
-## 📈 SEO Notes
-
-Before going live, update the following placeholders:
-- Replace `https://aryan-verma11.github.io/Funngro-website/` with your actual production domain in all meta tags, canonical links, and `sitemap.xml`.
-- Add real Open Graph / Twitter card images at `/assets/og-image.png` and `/assets/twitter-card.png` (1200×630px recommended).
-- Submit `sitemap.xml` to Google Search Console after deployment.
 
 ## 📝 License
 
