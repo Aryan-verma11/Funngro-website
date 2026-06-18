@@ -94,7 +94,7 @@ Then visit `http://localhost:8000`.
 ## 📈 SEO Notes
 
 Before going live, update the following placeholders:
-- Replace `https://funngro.com` with your actual production domain in all meta tags, canonical links, and `sitemap.xml`.
+- Replace `https://aryan-verma11.github.io/Funngro-website/` with your actual production domain in all meta tags, canonical links, and `sitemap.xml`.
 - Add real Open Graph / Twitter card images at `/assets/og-image.png` and `/assets/twitter-card.png` (1200×630px recommended).
 - Submit `sitemap.xml` to Google Search Console after deployment.
 
